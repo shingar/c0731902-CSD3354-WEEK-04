@@ -10,6 +10,25 @@ namespace c0731902_CSD3354_WEEK_04
     {
         static void Main(string[] args)
         {
+            countryside c = new countryside();
+
         }
+    }
+    class village
+    {
+        bool isAstrildeHere;
+        village nextvillage;
+        village prevvillage;
+        String villagename;
+
+
+    }
+
+
+    class countryside
+    {
+        village mapple;
+        village toronto;
+        village ajax;
     }
 }
